@@ -39,7 +39,6 @@ else:
 ⚡ Challenge Extension (Optional):
 
 # Write a program that prints all Armstrong numbers in a given range.
-# submit challenge answer links  here and tag me (use @Harikrishnan Mentor )
 # '''
 
 x=int(input("Enter start of range:--"))
