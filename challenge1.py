@@ -42,15 +42,15 @@ else:
 # submit challenge answer links  here and tag me (use @Harikrishnan Mentor )
 # '''
 
-# x=int(input("Enter start of range:--"))
-# y=int(input("Enter end of range:--"))
-# print("Armstrong number between ",x ,"and",y ,"are:-")
-# for i in range (x,y+1):
-#     str_list=str(i)
-#     sum_num_range=0
-#     for j in range(0, len(str_list)):
-#         sum_num_range+=int(str_list[j])**len(str_list)
-#         if sum_num_range== i:
-#             print(i,end=",")
-#         else:
-#             continue   
+x=int(input("Enter start of range:--"))
+y=int(input("Enter end of range:--"))
+print("Armstrong number between ",x ,"and",y ,"are:-")
+for i in range (x,y+1):
+    str_list=str(i)
+    sum_num_range=0
+    for j in range(0, len(str_list)):
+        sum_num_range+=int(str_list[j])**len(str_list)
+        if sum_num_range== i:
+            print(i,end=",")
+        else:
+            continue   
